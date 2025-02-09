@@ -1542,15 +1542,24 @@ a {
 .cid-uCgN7057T8 .card-title {
   text-align: center;
 }
-.cid-uCgP6z3mwx {
-  padding-top: 1rem;
+.cid-uCjgaOnQSR {
+  padding-top: 2rem;
   padding-bottom: 6rem;
   background-color: #ffffff;
 }
-.cid-uCgP6z3mwx .mbr-fallback-image.disabled {
+.cid-uCjgaOnQSR .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-uCgP6z3mwx .mbr-fallback-image {
+.cid-uCjgaOnQSR .item-wrapper {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+@media (max-width: 767px) {
+  .cid-uCjgaOnQSR .item-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-uCjgaOnQSR .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -1559,47 +1568,35 @@ a {
   position: absolute;
   top: 0;
 }
-.cid-uCgP6z3mwx .title .num {
-  width: 100%;
-  display: block;
+.cid-uCjgaOnQSR .mbr-iconfont {
+  display: inline-flex;
+  font-size: 2rem;
+  color: #d70081;
+  width: 80px;
+  justify-content: center;
+  align-items: center;
+  background: #ffd7ef;
+  height: 80px;
+  border-radius: 50%;
 }
-.cid-uCgP6z3mwx .title .card-title {
-  z-index: 1;
-}
-.cid-uCgP6z3mwx .count {
-  color: #0097b2;
-  font-weight: 700;
+.cid-uCjgaOnQSR .card-title,
+.cid-uCjgaOnQSR .iconfont-wrapper,
+.cid-uCjgaOnQSR .card-text {
+  color: #000000;
   text-align: center;
 }
-.cid-uCgP6z3mwx .item-mb {
-  margin-bottom: 2rem;
-}
-@media (max-width: 767px) {
-  .cid-uCgP6z3mwx .item-mb {
-    margin-bottom: 1rem;
-  }
-}
-@media (max-width: 767px) {
-  .cid-uCgP6z3mwx * {
-    text-align: center !important;
-  }
-  .cid-uCgP6z3mwx .content-column {
-    margin-bottom: 2rem;
-  }
-}
-.cid-uCgP6z3mwx .content-head {
+.cid-uCjgaOnQSR .content-head {
   max-width: 800px;
 }
-.cid-uCgP6z3mwx H3 {
-  color: #a6a99c;
-  text-align: left;
+.cid-uCjgaOnQSR .mbr-section-title {
+  color: #000000;
 }
-.cid-uCgP6z3mwx .card-text {
-  text-align: left;
-}
-.cid-uCgP6z3mwx .card-title,
-.cid-uCgP6z3mwx .card-img {
+.cid-uCjgaOnQSR .mbr-section-btn {
   text-align: center;
+}
+.cid-uCjgaOnQSR .card-title,
+.cid-uCjgaOnQSR .iconfont-wrapper {
+  color: #0097b2;
 }
 .cid-uCgp3qtMKs {
   padding-top: 5rem;

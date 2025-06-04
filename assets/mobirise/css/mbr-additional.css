@@ -20,7 +20,7 @@ body {
   font-family: Inter Tight;
 }
 .display-1 {
-  font-family: 'vertopal.com_MADEINFINITYPersonalUse-Black';
+  font-family: 'MADEINFINITYPersonalUse-Black';
   font-size: 5rem;
   line-height: 1;
 }
@@ -28,7 +28,7 @@ body {
   font-size: 6.25rem;
 }
 .display-2 {
-  font-family: 'vertopal.com_MADEINFINITYPersonalUse-Black';
+  font-family: 'MADEINFINITYPersonalUse-Black';
   font-size: 4rem;
   line-height: 1;
 }
@@ -36,7 +36,7 @@ body {
   font-size: 5rem;
 }
 .display-4 {
-  font-family: 'vertopal.com_MADEINFINITYPersonalUse-Regular';
+  font-family: 'MADEINFINITYPersonalUse-Regular';
   font-size: 1.2rem;
   line-height: 1.5;
 }
@@ -44,7 +44,7 @@ body {
   font-size: 1.5rem;
 }
 .display-5 {
-  font-family: 'vertopal.com_MADEINFINITYPersonalUse-Black';
+  font-family: 'MADEINFINITYPersonalUse-Black';
   font-size: 2rem;
   line-height: 1.5;
 }
@@ -52,7 +52,7 @@ body {
   font-size: 2.5rem;
 }
 .display-7 {
-  font-family: 'vertopal.com_MADEINFINITYPersonalUse-Regular';
+  font-family: 'MADEINFINITYPersonalUse-Regular';
   font-size: 1.4rem;
   line-height: 1.3;
 }
@@ -640,7 +640,7 @@ a:hover {
   display: none;
 }
 .form-control {
-  font-family: 'vertopal.com_MADEINFINITYPersonalUse-Regular';
+  font-family: 'MADEINFINITYPersonalUse-Regular';
   font-size: 1.4rem;
   line-height: 1.3;
   font-weight: 400;
@@ -655,7 +655,7 @@ a:hover {
   border-color: #0097b2 !important;
 }
 .form-control:-webkit-input-placeholder {
-  font-family: 'vertopal.com_MADEINFINITYPersonalUse-Regular';
+  font-family: 'MADEINFINITYPersonalUse-Regular';
   font-size: 1.4rem;
   line-height: 1.3;
   font-weight: 400;
@@ -1344,15 +1344,20 @@ a {
     padding: 1rem;
   }
 }
-.cid-uF2s7YRCBo {
+.cid-uN7rY4KEt1 {
+  display: flex;
   padding-top: 11rem;
-  padding-bottom: 6rem;
-  background-image: url("../../../assets/images/mbr-1920x1136.jpg");
+  padding-bottom: 9rem;
+  background-image: url("../../../assets/images/mbr-1920x1280.jpg");
 }
-.cid-uF2s7YRCBo .mbr-fallback-image.disabled {
+.cid-uN7rY4KEt1 .mbr-overlay {
+  background-color: #000000;
+  opacity: 0.7;
+}
+.cid-uN7rY4KEt1 .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-uF2s7YRCBo .mbr-fallback-image {
+.cid-uN7rY4KEt1 .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -1361,38 +1366,46 @@ a {
   position: absolute;
   top: 0;
 }
-@media (max-width: 991px) {
-  .cid-uF2s7YRCBo .image-wrapper {
-    margin-bottom: 1rem;
-  }
-}
-.cid-uF2s7YRCBo .row {
-  flex-direction: row-reverse;
-}
-.cid-uF2s7YRCBo .row {
-  align-items: center;
-}
-@media (max-width: 991px) {
-  .cid-uF2s7YRCBo .image-wrapper {
-    padding: 1rem;
-  }
+.cid-uN7rY4KEt1 .content-wrap {
+  padding: 5rem 1rem;
 }
 @media (min-width: 992px) {
-  .cid-uF2s7YRCBo .text-wrapper {
-    padding: 0 2rem;
+  .cid-uN7rY4KEt1 .content-wrap {
+    padding: 5rem 3rem;
   }
 }
-.cid-uF2s7YRCBo .mbr-section-title {
-  color: #ffffff;
+@media (min-width: 768px) {
+  .cid-uN7rY4KEt1 {
+    align-items: center;
+  }
+  .cid-uN7rY4KEt1 .row {
+    justify-content: center;
+  }
 }
-.cid-uF2s7YRCBo .mbr-text,
-.cid-uF2s7YRCBo .mbr-section-btn {
-  color: #ffffff;
+@media (max-width: 991px) and (min-width: 768px) {
+  .cid-uN7rY4KEt1 .content-wrap {
+    min-width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .cid-uN7rY4KEt1 {
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .cid-uN7rY4KEt1 .mbr-row {
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+  .cid-uN7rY4KEt1 .content-wrap {
+    width: 100%;
+  }
+}
+.cid-uN7rY4KEt1 .mbr-section-title {
   text-align: left;
 }
-.cid-uF2s7YRCBo P {
-  text-align: center;
-  color: #ffffff;
+.cid-uN7rY4KEt1 .mbr-text,
+.cid-uN7rY4KEt1 .mbr-section-btn {
+  text-align: left;
 }
 .cid-uCgrCGl17v {
   padding-top: 5rem;
@@ -1979,7 +1992,7 @@ a {
 .cid-uCgyUwKCsb {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-color: #a0e1e1;
+  background-color: #dde3e4;
 }
 .cid-uCgyUwKCsb .mbr-overlay {
   background-color: #ffffff;
@@ -2700,12 +2713,12 @@ a {
   }
 }
 .cid-uFe7AmBfK6 .mbr-section-title {
-  text-align: left;
+  text-align: center;
   color: #ffffff;
 }
 .cid-uFe7AmBfK6 .mbr-text,
 .cid-uFe7AmBfK6 .mbr-section-btn {
-  text-align: left;
+  text-align: center;
 }
 .cid-uFdaz0QasC {
   padding-top: 5rem;
